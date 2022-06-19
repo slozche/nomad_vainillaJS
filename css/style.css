@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hidden {display: none;}
+
+body {font-family: 'Noto Sans KR', sans-serif;}
+
+#login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#login-form h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+#login-form #login-text {
+    width: 400px;
+    height: 52px;
+    border-bottom: 1px solid white;
+    margin-top: 24px;
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+#todolist-container #weather {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+#todolist-form {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+#todolist-form #clock {
+    font-size: 120px;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+#todolist-form #name {
+    font-size: 40px;
+    font-weight: 400;
+}
+#todolist-form input {
+    width: 400px;
+    height: 52px;
+    border-bottom: 1px solid white;
+    margin-top: 24px;
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+}
+#todolist-form #todo-list {
+    margin-top: 24px;
+    font-size: 24px;
+}
+#todo-list li button{
+    color: white;
+    background-color: transparent;
+}
+#todolist-form #quote {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
